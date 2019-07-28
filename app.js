@@ -50,5 +50,21 @@ app.post('/api/v1/tours', (req, res) => {
     });
 });
 
+app.patch('/api/v1/tours/:id', (req, res) => {
+    res.status(200).json({
+        status: 'success',
+        data: {
+            tour: '<updated tour>'
+        }
+    });
+});
+
+app.delete('/api/v1/tours/:id', (req, res) => {
+    res.status(204).json({
+        status: 'success',
+        data: null
+    });
+});
+
 const PORT = 3000;
 app.listen(PORT, () => console.log("Server started"));
