@@ -1,0 +1,31 @@
+{
+ "name": "atour",
+ "version": "1.0.0",
+ "description": "Node, Express, Mongo and Mongoose",
+ "main": "app.js",
+ "scripts": {
+  "script": "nodemon app.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Victor4christ/atour.git"
+ },
+ "keywords": [
+  "Node",
+  "Express",
+  "Mongo",
+  "Mongoose",
+  "Tour",
+  "User"
+ ],
+ "author": "V A",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/Victor4christ/atour/issues"
+ },
+ "homepage": "https://github.com/Victor4christ/atour#readme",
+ "dependencies": {
+  "express": "^4.17.1",
+  "morgan": "^1.9.1"
+ }
+}
