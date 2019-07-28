@@ -4,7 +4,7 @@
  "description": "Node, Express, Mongo and Mongoose",
  "main": "app.js",
  "scripts": {
-  "script": "nodemon app.js"
+  "start": "nodemon app.js"
  },
  "repository": {
   "type": "git",
